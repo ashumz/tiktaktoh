@@ -1,0 +1,33 @@
+body {
+  background: green;
+  color: black;
+  font-size: 40px;
+  margin: auto;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size:40px;
+  padding: 10px;
+}
+
+#content {
+  background: black;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+table {
+  text-align: center;
+  font-size: 40px;
+  margin: auto;
+  padding: 20px;
+  color: red;
+}
+
+td {
+  padding: 20px;
+  border: 5px solid green;
+}
