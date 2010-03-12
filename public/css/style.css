@@ -22,9 +22,11 @@ h1 {
 table {
   text-align: center;
   font-size: 40px;
-  margin: auto;
+  margin: 30px auto;
   padding: 20px;
   color: red;
+  border-spacing: 0;
+  border-collapse: collapse;
 }
 
 td {

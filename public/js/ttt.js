@@ -1,23 +1,28 @@
 function init() { 
-  var grid=[["_", "_", "_"],
-            ["_", "_", "_"],
-            ["_", "_", "_"]];
-  var html=["<table>"];
+  var X = "x", 
+      O = "o",
+      EMPTY="&nbsp;";
+
+  var grid=[[EMPTY, EMPTY, EMPTY],
+            [EMPTY, EMPTY, EMPTY],
+            [EMPTY, EMPTY, EMPTY]];
+  
+  var table=document.createElement("table");
   
   
   for(var i=0; i < grid.length; i++) {
    
-    html.push("<tr>");
-    
-    for(var j=0; j < grid[i].length; j++) {
- 
-      html.push("<td>", grid[i][j], "</td>");
-    }
-    html.push("</tr>");
-  }
-  html.push("</table>");
+    var tr=document.createElement("tr");
+    table.appendChild(tr) 
+
   
-  //console.log(html.join(""));
+    for(var j=0; j < grid[i].length; j++) {
+      
+      var td=document.createElement("td");
+      td.appendChild(document.createTextNode(grid[i][j])
+    }
+   
+ //console.log(html.join(""));
   var contentDiv = document.getElementById("content");
   contentDiv.innerHTML = html.join("");
-}
+
