@@ -30,6 +30,12 @@ table {
 }
 
 td {
-  padding: 20px;
+  padding: 10px;
   border: 5px solid green;
+  height: 90px;
+  width: 90px;
+
+tr {
+  height: 90px;
+  width: 90px;
 }
