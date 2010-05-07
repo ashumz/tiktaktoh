@@ -113,7 +113,7 @@ function noWinner () {
 			}	
 		}
 	}	
-	alert("The only way to win is to not play the game.")
+	alert("Strange game. The only move to win is not to play.")
 	resetBoard();
 }		
  
