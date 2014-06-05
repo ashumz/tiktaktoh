@@ -21,4 +21,3 @@ get '/scramble' do
 	erb  :scramble
 end
 
-<!-- notes --!> 
